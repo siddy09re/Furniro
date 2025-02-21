@@ -1,0 +1,52 @@
+/* Hide the default dots */
+.swiper-pagination-bullet {
+    display: none;
+  }
+  
+.swiper-wrapper{
+  height: max-content;
+    padding-bottom: 10px;
+}
+.swiper{
+    height: max-content;
+    margin-left: 0;
+    margin-right:0;
+    width:85vw;
+}
+.swiper-slide{
+  margin-top: 50px !important;
+}
+  .swiper-pagination {
+    position: absolute;
+    bottom: -40px; /* Moves it lower than the cards */
+    left: 50%;
+    transform: translateX(-0%);
+    transform: translateY(10%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 800;
+}
+
+  /* Style the custom pagination box */
+  .custom-pagination-box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    background-color: lightcoral;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* position : absolute; */
+  }
+  
+  /* Hover effect */
+  .custom-pagination-box:hover {
+    background-color: #ddd;
+    
+  }
+  
