@@ -15,7 +15,7 @@ const HoverModal = ({ item, isVisible , forceLayout  }) => {
 
   return (
     <div className="absolute inset-0 bg-black bg-opacity-30 backdrop-blur-md flex flex-col items-center justify-center 
-    text-white rounded-lg transition-opacity duration-300 p-2">
+    text-white rounded-lg transition-opacity duration-300 p-2 ">
 
     {
         useLayout ?

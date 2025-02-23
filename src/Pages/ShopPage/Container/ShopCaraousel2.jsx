@@ -65,8 +65,8 @@ const ShopCaraousal = () => {
   };
 
   return (
-    <div className="flex justify-center items-center w-full">
-        <div className="sm:mt-20 mt-9  relative max-w-fit sm:pb-15 pb-1">
+    <div className="flex justify-center items-center ">
+        <div className="sm:mt-20 mt-9  relative max-w-fit w-full sm:pb-15 pb-1 ">
         {GridStatus ? <ShopGridView items={sortedItems} /> : <ShopListView items={sortedItems} />}
         <ShopPagination currentPage={currentPage} totalPages={totalPages} goToPage={goToPage} handleNext={handleNext} handlePrev={handlePrev} />
         </div>

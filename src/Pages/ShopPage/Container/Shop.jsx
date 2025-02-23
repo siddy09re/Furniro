@@ -2,7 +2,7 @@ import HomeImage from '../ShopAssests/HomeDecor.png'
 import { HiAdjustmentsHorizontal } from "react-icons/hi2";
 import Dots from '../ShopAssests/Dots.svg'
 import Convert from '../ShopAssests/Conversion.svg'
-import ShopCaraousal from './ShopCaraousal';
+
 import ShopCaraousal2 from './ShopCaraousel2';
 import '../Container/Shop.css'
 import { useSelector,useDispatch } from 'react-redux';
@@ -70,12 +70,12 @@ const { startIndex, endIndex } = range;
                   placeholder='5'
                   value={value}
                   onChange={handleShowCards}
-                  className='max-w-[30px]'/>
+                  className='max-w-[40px]'/>
               </div>
 
               <div>
               <div className="relative flex items-center gap-3">
-                  <label className="block text-sm font-medium text-gray-700">Short by</label>
+                  <label className="block text-sm font-medium text-gray-700">Sort by</label>
                         <select id="dropdown" className="mt-2 block max-w-[190px] px-2 py-1 border border-gray-300 
                          rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2" 
                          onChange={handleSortChange}>

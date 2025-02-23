@@ -30,8 +30,8 @@ const Home = () => {
                 <div className='sm:max-w-fit w-full' >
                   <Button 
                       variant="customBrown" 
-                      size="large" 
-                      className=" xl:mt-11 sm:text-[16px] text-[11px] sm:mt-0 mt-5 " 
+                      size="medium" 
+                      className="xl:mt-3    sm:text-[16px] text-[11px] sm:mt-0 mt-5 " 
                       content="Buy Now" 
                     />
                 </div>

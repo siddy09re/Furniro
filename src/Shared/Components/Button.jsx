@@ -11,7 +11,7 @@ const Button = ({ content, variant, size, className, onClick }) => {
 
     const sizes = {
       small: 'px-4 py-2 text-sm',
-      medium: 'px-8 py-2 text-md',
+      medium: 'px-8 py-4 text-md',
       large: 'px-12 py-4 text-lg ',
       extralarge: 'md:px-20 md:py-8 sm:px-12 sm:py-4 px-8 py-2 text-lg',
     };
