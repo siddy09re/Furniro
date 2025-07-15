@@ -22,7 +22,7 @@ Furniro is a sleek and fully responsive e-commerce frontend built with **React**
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/siddy09re/E-commerce.git
+git clone https://github.com/siddy09re/Furniro.git
 
 # 2. Navigate into the project
 cd E-commerce
