@@ -42,11 +42,12 @@ const Checkout = () => {
     }}
         >
 
-    <div>
+    <Form>
       
       <img src={DecorImage} className="w-full max-h-80"/>
 
       <div className="lg:px-12 sm:px-10 px-5 py-16 flex lg:flex-row flex-col justify-between">
+        
 
         <div className="max-w-[588px] sm:px-12 px-5 py-16">
 
@@ -214,6 +215,7 @@ const Checkout = () => {
         variant="outlined"
         size="medium"
         className="rounded-xl"
+        type="submit"
         />
     </div>
   </div>
@@ -224,8 +226,9 @@ const Checkout = () => {
 
 
       </div>
+      
 
-    </div>
+    </Form>
   </Formik>
   
   )

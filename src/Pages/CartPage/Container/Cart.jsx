@@ -17,7 +17,8 @@ const Cart = () => {
 
   return (
     <div>
-      <img src={DecorImage} className="w-full h-96" alt="Decor" />
+      <img src="https://st.hzcdn.com/simgs/pictures/patios/east-hampton-home-elizabeth-kohn-design-img~db6147d2061d65e5_14-5001-1-5ef2a90.jpg" 
+    className='w-full max-h-[316px]  object-cover' />
       <div className="md:px-24 sm:px-12 px-8 md:pt-20 sm:pt-15 pt-8">
         <div className="overflow-x-auto">
           <div className="min-w-[700px]">

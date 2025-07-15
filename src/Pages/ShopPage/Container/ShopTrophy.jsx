@@ -5,7 +5,7 @@ import customerSupport from '../ShopAssests/customer-support.svg'
 
 const ShopTrophy = () => {
   return (
-    <div className="sm:px-12 px-6 sm:py-24 py-12 flex justify-center items-center bg-peach mt-20">
+    <div className="sm:px-12 px-6 sm:py-24 py-12 flex justify-center items-center bg-peach md:mt-20 mt-5">
         <div className='grid lg:grid-cols-4 grid-cols-2 sm:gap-8 gap-3 '>
             <div className='flex items-center gap-4 '>
                     <img src={trophy}  className="w-6 sm:w-8"/>

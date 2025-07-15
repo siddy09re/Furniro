@@ -1,70 +1,20 @@
-
-
+/* Target your Swiper instance ONLY */
+.mySwiper.swiper {
+    width: 55vw !important;
+    position: relative !important;
+}
 
 .mySwiper .swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.swiper{
-    width:55vw !important;
-    position:relative;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
-
-.swiper-button-prev,
-.swiper-button-next {
-    
-}
-
-/* Custom Pagination Dots */
-/* .swiper-pagination-bullet {
-    background-color: #666;
-    width: 10px;
-    height: 10px;
-    opacity: 1;
-    display: flex;
-    bottom: -1px;
-} */
-
-/* .swiper-pagination-bullet-active {
-    background-color: #000;
-    width: 12px;
-    height: 12px;
-} */
-
-/* Optional: Hover effect for buttons */
-.custom-prev:hover, .custom-next:hover {
-    background-color: #444;
-}
-
- /* .swiper-pagination {
-    position: absolute;
-    bottom: 10px;  
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 8px; 
-} */
-
-/* .swiper-pagination-bullet {
-    background-color: #666;
-    width: 10px;
-    height: 10px;
-    opacity: 1;
-    border-radius: 50%;
-} */
-
-/* .swiper-pagination-bullet-active {
-    background-color: #000;
-    width: 12px;
-    height: 12px;
-} */
- 
-.swiper-pagination-bullet{
-    display:flex !important;
+/* Pagination bullets */
+.mySwiper .swiper-pagination-bullet {
+    display: flex !important;
     background-color: white !important;
     opacity: 0.5 !important;
-    bottom:-20px !important;
+    bottom: -20px !important;
+    position: relative; /* sometimes needed */
 }

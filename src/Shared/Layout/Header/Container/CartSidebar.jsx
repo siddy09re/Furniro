@@ -15,7 +15,7 @@ const CartSidebar = () => {
       const dispatch = useDispatch();
 
   return (
-    <div className="absolute top-0 right-0 bg-white z-20 p-7 md:max-w-96 max-w-xl w-full shadow-2xl rounded-3xl "> 
+    <div className="absolute top-0 right-0 bg-white z-20 p-7 md:max-w-96 max-w-xl w-full shadow-2xl rounded-3xl max-h-screen overflow-y-auto "> 
 
     <div className="flex justify-between items-center pb-6 border-b-2">
           <p className="font-bold text-[24px]">Shopping Cart</p>
@@ -81,7 +81,9 @@ const CartSidebar = () => {
             content="Cart" 
             size="small"
             className="rounded-xl"
-            onClick={()=> navigate('/cart')}/>
+            onClick={()=> {navigate('/cart')
+              dispatch(setModalStatus())
+            }}/>
           </div>
 
           <div>
@@ -90,7 +92,9 @@ const CartSidebar = () => {
             content="Checkout" 
             size="small"
             className="rounded-xl"
-            onClick={()=> navigate('/checkout')}/>
+            onClick={()=> {navigate('/checkout')
+              dispatch(setModalStatus())
+            }}/>
           </div>
     </div>    
 

@@ -1,26 +1,27 @@
-/* Hide the default dots */
-.swiper-pagination-bullet {
+/* Shop.module.css */
+.shopSwiper .swiper-pagination-bullet {
     display: none;
-  }
-  
-.swiper-wrapper{
-  height: max-content;
+}
+
+.shopSwiper .swiper-wrapper {
+    height: max-content;
     padding-bottom: 10px;
 }
-.swiper{
+
+.shopSwiper .swiper {
     height: max-content;
     margin-left: 0;
-    margin-right:0;
+    margin-right: 0;
     width: 90vw !important;
 }
 
-.swiper-slide{
-  margin-top: 50px !important;
-  
+.shopSwiper .swiper-slide {
+    margin-top: 50px !important;
 }
-  .swiper-pagination {
+
+.shopSwiper .swiper-pagination {
     position: absolute;
-    bottom: -40px; /* Moves it lower than the cards */
+    bottom: -40px;
     left: 50%;
     transform: translateX(-0%);
     transform: translateY(10%);
@@ -30,8 +31,7 @@
     z-index: 800;
 }
 
-  /* Style the custom pagination box */
-  .custom-pagination-box {
+.shopSwiper .custom-pagination-box {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -43,12 +43,8 @@
     margin: 0 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    /* position : absolute; */
-  }
-  
-  /* Hover effect */
-  .custom-pagination-box:hover {
+}
+
+.shopSwiper .custom-pagination-box:hover {
     background-color: #ddd;
-    
-  }
-  
+}

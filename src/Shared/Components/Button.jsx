@@ -1,7 +1,7 @@
 
 import { twMerge } from 'tailwind-merge';
 
-const Button = ({ content, variant, size, className, onClick }) => {
+const Button = ({ content, variant, size, className, onClick , type = "button" }) => {
     const variants = {
       customBrown: 'bg-custom-brown text-white',
       primary: 'bg-blue-500 text-white hover:bg-blue-700',
@@ -19,7 +19,7 @@ const Button = ({ content, variant, size, className, onClick }) => {
     return (
       <button
         className={twMerge("whitespace-nowrap w-full h-full "  , variants[variant], sizes[size] , className)}
-        onClick={onClick}
+        onClick={onClick} type={type}
         >
         {content}
       </button>

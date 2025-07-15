@@ -1,7 +1,8 @@
 import Button from "../../../Shared/Components/Button";
 import JsonData from "../../../Shared/Components/JsonData";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import '../Container/Home.css'
+import "./Home.css"
+
 
 
 // Swiper React components
@@ -43,7 +44,7 @@ const HomeCaraousel = () => {
             </div>
 
             {/* Swiper Carousel */}
-        <div className="lg:max-w-[808px] md:max-w-[580px] w-full  flex flex-col items-center relative ">
+        <div className="lg:max-w-[808px] md:max-w-[580px] w-full  flex flex-col items-center relative mr-5">
 
 
 

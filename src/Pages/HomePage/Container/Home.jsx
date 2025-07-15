@@ -4,6 +4,7 @@ import JsonData from '../../../Shared/Components/JsonData'
 import HomeOurProduct from '../../../Shared/Container/HomeOurProduct';
 import HomeBentoGrid from './HomeBentoGrid';
 import HomeCaraousel from './HomeCaraousel';
+import "./Home.css"
 
 const Home = () => {
   const data = JsonData();
@@ -12,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <div className='relative font-montserrat w-full ' id="whole image and card section">
-          <img src={image} alt="Banner Image" className='w-full h-auto max-h-[716px] object-cover '/>
+          <img src={image} loading='lazy' alt="Banner Image" className='w-full h-auto max-h-[716px] object-cover '/>
           <div className='xl:absolute bg-custom-pink z-10 bottom-28 right-20 sm:pt-[62px] pt-12 sm:pl-10 pl-6 sm:pb-9 pb-6
            sm:pr-16 pr-10 xl:w-1/2.5 h-1/1.5 
           rounded-2xl flex xl:flex-col sm:flex-row flex-col justify-between items-center xl:items-start ' id="card section">

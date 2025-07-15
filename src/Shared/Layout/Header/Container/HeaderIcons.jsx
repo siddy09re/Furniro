@@ -18,11 +18,11 @@ const HeaderIcons = ({ className }) => {
 
   const dispatch = useDispatch();
     return (
-      <div className={`w-full  flex justify-between items-center md:gap-5  gap-3 
+      <div className={`w-full  flex justify-end items-center md:gap-5  gap-3 
       sm:max-w-[230px] sm:max-h-[28px] max-w-[230px] max-h-[18px] font-poppins ${className} `} id="header_icons">
-          <PiPersonSimpleThrowFill  className='min-w-[24px] min-h-[23px] '/> 
+          {/* <PiPersonSimpleThrowFill  className='min-w-[24px] min-h-[23px] '/> 
           <IoSearchOutline className='min-w-[25px] min-h-[24px]' /> 
-          <FaRegHeart className='min-w-[20px] min-h-[20px] ' /> 
+          <FaRegHeart className='min-w-[20px] min-h-[20px] ' />  */}
         
         {
           modelStatus ? (

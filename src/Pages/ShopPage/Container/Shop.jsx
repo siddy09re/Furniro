@@ -4,7 +4,7 @@ import Dots from '../ShopAssests/Dots.svg'
 import Convert from '../ShopAssests/Conversion.svg'
 
 import ShopCaraousal2 from './ShopCaraousel2';
-import '../Container/Shop.css'
+// import '../Container/Shop.css'
 import { useSelector,useDispatch } from 'react-redux';
 import { setshowCards,setSortOption,changeviewStatus } from './ShopSlice';
 import { BiBarChart } from "react-icons/bi";
@@ -35,7 +35,8 @@ const { startIndex, endIndex } = range;
   return (
     <div className='font-poppins'>
       
-    <img src={HomeImage} className='w-full max-h-[316px] ' />
+    <img src="https://st.hzcdn.com/simgs/pictures/patios/east-hampton-home-elizabeth-kohn-design-img~db6147d2061d65e5_14-5001-1-5ef2a90.jpg" 
+    className='w-full max-h-[516px] object-cover' />
 
     <div className='bg-peach flex lg:justify-between lg:items-center md:px-24 sm:px-12 px-4 py-6 
     lg:flex-row flex-col justify-center sm:text-[16px] text-[12px]' id='filtering part'>

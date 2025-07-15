@@ -20,10 +20,10 @@ const [isToggle,setIsToggle] = useState(false)
        <ul className="flex flex-col items-center gap-1 ">
        
          <li className="border-b rounded-md border-gray-400 my-1 mx-2 ">
-         <NavLink to= "/">Home</NavLink>
+         <NavLink to= "/" onClick={() => setIsToggle(!isToggle)}>Home</NavLink>
          </li>
          <li className="border-b rounded-md border-gray-400 my-1 mx-2">
-         <NavLink to= "/shop">Shop</NavLink>
+         <NavLink to= "/shop" onClick={() => setIsToggle(!isToggle)}>Shop</NavLink>
          </li>
          {/* <li className="border-b rounded-md border-gray-400 my-1 mx-2">
          <NavLink to= "/blog">About</NavLink>
@@ -32,7 +32,7 @@ const [isToggle,setIsToggle] = useState(false)
          <NavLink to= "/contact">Contact</NavLink>
          </li> */}
          <li className="border-b rounded-md border-gray-400 my-1 mx-2">
-         <NavLink to= "/cart">Cart</NavLink>
+         <NavLink to= "/cart" onClick={() => setIsToggle(!isToggle)}>Cart</NavLink>
          </li>
          {/* <li className="mx-3 my-2">
             <HeaderIcons/>

@@ -149,7 +149,7 @@ const SingleProductInformation = ({item}) => {
 
 
 {/* -------------------------------------- Buttons --------------------------------------- */}
-                <div className='mt-8 flex sm:flex-row flex-col justify-between gap-2'>
+                <div className='mt-8 flex sm:flex-row flex-col  gap-12'>
 
                   <div className=' flex sm:py-3 py-2 px-2 sm:px-5 border-2 border-custom-brown sm:max-w-fit 
                   rounded-xl justify-center '>
@@ -183,12 +183,12 @@ const SingleProductInformation = ({item}) => {
                           />
                   </div>
 
-                  <div>
+                  {/* <div>
                       <Button
                         content="+ Compare"
                         className="lg:px-12 md:px-20 sm:px-12 sm:py-4 px-5 py-2 whitespace-nowrap text-black rounded-xl "
                         variant="outlined"/>
-                  </div>
+                  </div> */}
 
                 </div>
 
